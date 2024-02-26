@@ -1,0 +1,17 @@
+body {
+}
+
+
+
+.delete-contact {
+    cursor: pointer;
+}
+
+.bi-trash-fill {
+    fill: #b82222;
+    user-select: none;
+}
+
+.bi-trash-fill:hover {
+    fill: #cb2727;
+}
