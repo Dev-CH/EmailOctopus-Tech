@@ -6,7 +6,10 @@
 
 ### Installation 
 To run the project you can simply run `make start`.
+Once the containers are running, run `make composer c='install'` to install dependencies. 
+
 If you are not able to use make, you can run `docker compose build --pull --no-cache` followed by `docker compose up -d`.
+You must then connect to the PHP container using `docker exec -ti #container sh` then run composer manually. 
 
 To stop the project run `make down`.
 

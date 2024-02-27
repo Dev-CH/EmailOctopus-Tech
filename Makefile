@@ -31,7 +31,7 @@ down: ## Stop the docker hub
 logs: ## Show live logs
 	@$(DOCKER_COMP) logs --tail=0 --follow
 
-sh: ## Connect to the PHP FPM container
+sh: ## Connect to the PHP container
 	@$(PHP_CONT) sh
 
 ##———————— Composer ————————
